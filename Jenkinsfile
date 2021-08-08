@@ -3,19 +3,27 @@ pipleline{
   stages{
     stage('compile')
     {
-      echo "compile"
+      steps{
+        echo "compile"
+      }
     }
     stage('test')
     {
-      echo "test"
+      steps{
+        echo "test"
+      }
     }
     stage('validate')
     {
-      echo "validate"
+      steps{
+        echo "validate"
+      }
     }
     stage('install')
     {
-      echo "hai install"
+      steps{
+        echo "hai install"
+      }
     }
   }
 }
